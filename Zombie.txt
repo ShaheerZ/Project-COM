@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>Zombie Game</title>
+</head>
+
+
+
+<style>
+#zombie_map {
+	height: 100;
+	width: 100;
+	left: 0;
+	position: absolute;
+	top:0;
+	background-color: grey;
+
+}
+</style>
+
+
+</head>
+
+<body>
+My Zombie Map
+
+
+<div id="zombie_map"></div>
+<script>
+	var zombie_map;
+	function initMap(){
+
+	zombie_map = new google.maps.Maps(document.getElementById)'zombie_map'),{
+	zoom: 18
+	centre: {lat:-33.327617, lng: 115.633066}
+
+	)};
+
+</script>
+
+<script async defer
+ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-XnlzQkfEJc5XUNXXmO9c_MUNeAyzyZE&callback=initMap"
+</script>
+
+
+
+
+
+</body>
+
+
+
+
+
+</html?
